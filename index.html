@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush Saini | ML Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-text">Piyush Saini</div>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+    <!-- Social Media Links -->
+    <div class="social-links">
+        <a href="https://github.com/sainipiyush05" target="_blank" aria-label="GitHub"><i
+                class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/piyush-saini-8bb40827a/" target="_blank" aria-label="LinkedIn"><i
+                class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/piyush_saini05/profilecard/?igsh=c3Q4c3dtenFhdml6" target="_blank"
+            aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="grain-overlay"></div>
+        <div class="hero-content">
+            <div class="profile-photo">
+                <img src="piyush.jpg" alt="Piyush Saini" class="profile-image">
+            </div>
+            <h1 class="glitch-text" data-text="Piyush Saini">Piyush Saini</h1>
+            <p class="hero-description">Pushing Boundaries with AI</p>
+            <button class="explore-btn">
+                <span class="btn-text">Explore</span>
+                <span class="btn-icon">↓</span>
+            </button>
+        </div>
+        <canvas id="noise-canvas"></canvas>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content hidden">
+        <!-- Add this right after the About Me section's closing paragraph -->
+        <section class="about-section" data-aos="fade-up">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="profile-description">
+                    <p><span class="emoji">👋</span> Hi, I'm <strong>Piyush Saini</strong>! A passionate Computer Science and Engineering student at SRM Institute, specializing in <strong>Machine Learning</strong> and AI.</p>
+                    <p><span class="emoji">🔍</span> My journey involves projects like a disease prediction app targeting <strong>heart disease, diabetes, cancer,</strong> and <strong>Parkinson's</strong>, with models achieving up to <strong>85% accuracy</strong>.</p>
+                    <p><span class="emoji">🤝</span> Beyond tech, I excel in event management, using my adaptability and collaboration skills to ensure successful outcomes and positive feedback.</p>
+                </div>
+        
+                <a href="https://drive.google.com/file/d/1iNhx7Vj3qeNHUw4NtXUoJLakjz7gKdkf/view" class="resume-btn" target="_blank">
+                    <span class="btn-text">View Resume</span>
+                    <i class="fas fa-file-alt btn-icon"></i>
+                </a>
+            </div>
+        </section>
+
+        
+
+        <!-- Featured Projects -->
+        <section class="projects-section" data-aos="fade-up">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Disease Prediction</h3>
+                    <p>"Your Health, Our Priority: Early Detection for a Brighter Tomorrow."</p>
+                    <div class="project-tech">TensorFlow,Scikit-Learn, Python</div>
+                    <a href="https://github.com/sainipiyush05/WELLNESS-WELL" class="project-btn"
+                    target="_blank">View on GitHub</a>
+                </article>
+                <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Digit-Recognition</h3>
+                    <p>Recognizes digits from real-time inputs.</p>
+                    <div class="project-tech">TensorFlow, Python, OpenCV, Keras</div>
+                    <a href="https://github.com/sainipiyush05/Real-time-OCR-of-Digits-" class="project-btn" target="_blank">View
+                        on GitHub</a>
+                    </article>
+                    <article class="project-card" data-aos="fade-up">
+                        <h3>SMS-Fraud</h3>
+                        <p>Detecting whether the sms is fraud or not.</p>
+                        <div class="project-tech">Scikit-Learn, Matplotlib, Python</div>
+                        <a href="https://github.com/sainipiyush05/SMS-Fraud" class="project-btn" target="_blank">View on
+                            GitHub</a>
+                    </article>
+                    <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+                        <h3>Music-Player-Using-Data-Structures/h3>
+                        <p>Music-Player-Using-Data-Structures.</p>
+                        <div class="project-tech">C++, Command Line Tools (macOS)/div>
+                        <a href="https://github.com/sainipiyush05/Music-Player-Using-Data-Structures" class="project-btn" target="_blank">View
+                            on GitHub</a>
+                        </article>
+                        <article class="project-card" data-aos="fade-up">
+                            <h3>ShortestPath-CashFlow-Algorithm-Splitwise</h3>
+                            <p>"Settle one person's debts, recur for others.".</p>
+                            <div class="project-tech">Doubly Linked List, Stacks, Queues, File Handling</div>
+                            <a href="https://github.com/sainipiyush05/ShortestPath-CashFlow-Algorithm-Splitwise" class="project-btn" target="_blank">View on
+                                GitHub</a>
+                        </article>
+            </div>
+        </section>
+
+
+        <!-- Skills Section -->
+        <section class="skills-section" data-aos="fade-up">
+            <h2 class="section-title">Expertise</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Machine Learning</h3>
+                    <span>Supervised Learning, UnSupervised Learning, Reinforcement Learning</span>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <span>C, C++, Python, Java, Html, Css, Js</span>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <span>TensorFlow, Scikit-Learn, Pandas , Numpy, Matplotlib, Keras, OpenCV</span>
+                </div>
+                <!-- <div class="skill-category">
+                    <h3>Cloud & MLOps</h3>
+                    <span>AWS, MLflow, Kubernetes, CI/CD</span>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience-section" data-aos="fade-up">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-icon">
+                        <img src="ngailogo.jpg" alt="Next-Gen AI Logo" class="company-logo" />
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Technical Team Member</h3>
+                        <h4> CINTEL's Next-Gen AI · Full-time</h4>
+                        <p class="timeline-date">Oct 2024 - Present · 1 mos</p>
+                        <p class="timeline-location">Chennai, Tamil Nadu, India</p>
+                        <div class="skill-tag">Machine Learning and Deep Learning</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-icon">
+                        <img src="code-soft.jpeg" alt="Codesoft Logo" class="company-logo" />
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Codesoft-Intern</h3>
+                        <h4>Codesoft · Internship</h4>
+                        <p class="timeline-date">Oct 2024 - Present · 1 mos</p>
+                        <p class="timeline-location">Chennai, Tamil Nadu, India · Remote</p>
+                        <div class="skill-tag">Data Scientist</div>
+                        <a href="https://drive.google.com/file/d/1iNhx7Vj3qeNHUw4NtXUoJLakjz7gKdkf/view?usp=drive_link"cover-btn" target="_blank">
+                            <span class="btn-text">Offer Letter</span>
+                            <i class="fas fa-file-alt btn-icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-icon">
+                        <img src="aws.png" alt="AWS Logo" class="company-logo" />
+                    </div>
+                    <div class="timeline-content">
+                        <h3>AWS-Intern</h3>
+                        <h4>AWS · Internship</h4>
+                        <p class="timeline-date">Oct 2024 - Present · 1 mos</p>
+                        <p class="timeline-location">Chennai, Tamil Nadu, India · Remote</p>
+                        <div class="skill-tag">AI-ML</div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-icon">
+                        <img src="tph.jpg" alt="TPH Logo" class="company-logo" />
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Technical Team Men</h3>
+                        <h4>The Product House · Full-time</h4>
+                        <p class="timeline-date">Mar 2024 - Present · 9 mos</p>
+                        <div class="skill-tag">Web Dev</div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Certificates Section -->
+<section class="certificate-section" data-aos="fade-up">
+    <h2 class="section-title">Certificates</h2>
+    <div class="certificate-container">
+        <div class="certificate-card">
+            <a href="certificate1.jpeg" target="_blank">
+                <img src="certificate1.jpeg" alt="Certificate 1" class="certificate-image">
+            </a>
+        </div>
+        <div class="certificate-card">
+            <a href="certificate2.jpeg" target="_blank">
+                <img src="certificate2.jpeg" alt="Certificate 2" class="certificate-image">
+            </a>
+        </div>
+        <div class="certificate-card">
+            <a href="certificate3.jpeg" target="_blank">
+                <img src="certificate3.jpeg" alt="Certificate 3" class="certificate-image">
+            </a>
+        </div>
+        <div class="certificate-card">
+            <a href="certificate 4.jpeg" target="_blank">
+                <img src="certificate 4.jpeg" alt="Certificate 4" class="certificate-image">
+            </a>
+        </div>
+        <div class="certificate-card">
+            <a href="certificate5.jpeg" target="_blank">
+                <img src="certificate5.jpeg" alt="Certificate5" class="certificate-image">
+            </a>
+        </div><div class="certificate-card">
+            <a href="certificate6.jpeg" target="_blank">
+                <img src="certificate6.jpeg" alt="Certificate6" class="certificate-image">
+            </a>
+        </div>
+        </div><div class="certificate-card">
+            <a href="certificate7.jpeg" target="_blank">
+                <img src="certificate7.jpeg" alt="Certificate7" class="certificate-image">
+            </a>
+    </div>
+        <!-- Add more certificates as needed -->
+    </div>
+</section>
+
+
+
+        <!-- Contact Section -->
+        <section class="contact-section" data-aos="fade-up">
+            <h2 class="section-title">Contact</h2>
+            <p>Let's collaborate on innovative AI and ML projects.</p>
+            <div class="contact-links">
+                <a href="mailto:your.sain2005piyush@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/piyush-saini-8bb40827a/">LinkedIn</a>
+                <a href="https://github.com/sainipiyush05">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
